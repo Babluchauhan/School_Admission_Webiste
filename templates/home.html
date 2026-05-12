@@ -1,0 +1,218 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1 class="hero-title">Welcome to Elite Academy</h1>
+            <p class="hero-subtitle">Empowering minds, shaping futures, building excellence</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">Learn More</button>
+                <button class="btn btn-secondary" onclick="window.location.href='admission_form'">Enroll Now</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-image-placeholder">
+                <i class="fas fa-users"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+    <div class="container">
+        <h2 class="section-title">About Our School</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Committed to Excellence Since 1995</h3>
+                <p>Elite Academy has been a beacon of educational excellence for nearly three decades. Our commitment to providing quality education combined with holistic development has made us one of the most sought-after institutions in the region.</p>
+                <p>With state-of-the-art facilities, experienced faculty, and a student-centric approach, we ensure every student reaches their full potential and becomes a responsible global citizen.</p>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <i class="fas fa-book"></i>
+                        <h4>Expert Faculty</h4>
+                        <p>Highly qualified teachers with international experience</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Quality Education</h4>
+                        <p>Comprehensive curriculum with modern teaching methods</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-heart"></i>
+                        <h4>Holistic Development</h4>
+                        <p>Focus on academics, sports, arts, and character building</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="about-image-placeholder">
+                    <i class="fas fa-school"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Facilities Section -->
+<section class="facilities" id="facilities">
+    <div class="container">
+        <h2 class="section-title">Our Facilities</h2>
+        <div class="facilities-grid">
+            <div class="facility-card">
+                <div class="facility-icon">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <h3>Modern Science Lab</h3>
+                <p>Fully equipped with advanced apparatus for practical learning and research projects</p>
+            </div>
+
+            <div class="facility-card">
+                <div class="facility-icon">
+                    <i class="fas fa-computer"></i>
+                </div>
+                <h3>IT Lab</h3>
+                <p>State-of-the-art computer lab with high-speed internet and latest software</p>
+            </div>
+
+            <div class="facility-card">
+                <div class="facility-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3>Library</h3>
+                <p>Extensive collection of books, journals, and digital resources for research</p>
+            </div>
+
+            <div class="facility-card">
+                <div class="facility-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <h3>Sports Complex</h3>
+                <p>Complete sports facilities including basketball, volleyball, and athletic grounds</p>
+            </div>
+
+            <div class="facility-card">
+                <div class="facility-icon">
+                    <i class="fas fa-music"></i>
+                </div>
+                <h3>Music & Arts</h3>
+                <p>Well-equipped studios for music, art, dance, and other creative pursuits</p>
+            </div>
+
+            <div class="facility-card">
+                <div class="facility-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h3>Cafeteria</h3>
+                <p>Hygienic and nutritious food prepared by experienced chefs daily</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Highlights Section -->
+<section class="highlights">
+    <div class="container">
+        <h2 class="section-title">Why Choose Us</h2>
+        <div class="highlights-grid">
+            <div class="highlight-card">
+                <div class="highlight-number">95%</div>
+                <h3>Success Rate</h3>
+                <p>Students achieving their academic goals and beyond</p>
+            </div>
+
+            <div class="highlight-card">
+                <div class="highlight-number">500+</div>
+                <h3>Students</h3>
+                <p>From diverse backgrounds learning together</p>
+            </div>
+
+            <div class="highlight-card">
+                <div class="highlight-number">50+</div>
+                <h3>Faculty Members</h3>
+                <p>Dedicated educators committed to excellence</p>
+            </div>
+
+            <div class="highlight-card">
+                <div class="highlight-number">30+</div>
+                <h3>Achievements</h3>
+                <p>National and international awards and recognitions</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section class="gallery" id="gallery">
+    <div class="container">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <div class="gallery-image-placeholder">
+                    <i class="fas fa-image"></i>
+                </div>
+                <div class="gallery-overlay">
+                    <h4>Campus Life</h4>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-image-placeholder">
+                    <i class="fas fa-image"></i>
+                </div>
+                <div class="gallery-overlay">
+                    <h4>Classroom</h4>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-image-placeholder">
+                    <i class="fas fa-image"></i>
+                </div>
+                <div class="gallery-overlay">
+                    <h4>Sports Events</h4>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-image-placeholder">
+                    <i class="fas fa-image"></i>
+                </div>
+                <div class="gallery-overlay">
+                    <h4>Lab Work</h4>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-image-placeholder">
+                    <i class="fas fa-image"></i>
+                </div>
+                <div class="gallery-overlay">
+                    <h4>Cultural Events</h4>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-image-placeholder">
+                    <i class="fas fa-image"></i>
+                </div>
+                <div class="gallery-overlay">
+                    <h4>Student Activities</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="cta-content">
+        <h2>Ready to Join Elite Academy?</h2>
+        <p>Take the first step towards an exceptional educational journey</p>
+        <a href="/signup" class="btn btn-light">Enroll Today</a>
+    </div>
+</section>
+
+{% endblock %}
