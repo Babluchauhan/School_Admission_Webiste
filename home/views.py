@@ -6,12 +6,13 @@ def home(request):
     return render(request, 'home.html')
 
 def login(request):
-    return render(request, 'login_page.html')
+    return render(request, 'login.html')
 
 def signup(request):
-    return render(request, 'sign_up.html')
+    return render(request, 'signup.html')
 
 def admission_form(request):
+    #Fix this form make it short and simple
     if request.method == 'POST':
         # Get form data from POST request
         first_name = request.POST.get('first_name')
@@ -33,6 +34,7 @@ def admission_form(request):
         admission.save()
         
         # Show success message
+        #you need to add messages in settings.py and base.html to show this message
         messages.success(request, 'Application submitted successfully!')
         
         # Redirect to home page
